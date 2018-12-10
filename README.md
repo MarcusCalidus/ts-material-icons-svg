@@ -107,6 +107,10 @@ export class AppModule {
 }
 ```
 
+## To use your imported icon in the template, follow the rules of Angular
+```
+<mat-icon svgIcon="keyboard_arrow_right"></mat-icon>
+```
 # Changelog
 
 ## 0.0.1 First release
