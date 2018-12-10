@@ -1,5 +1,8 @@
 # ts-material-icons-svg
-Attempt to make the latest Material Icons SVG designs available in typescript
+Attempt to make the latest Material Icons SVG designs available in typescript.
+
+# Google Material Icons
+Google Material Icons are released under APL-2.0 https://www.apache.org/licenses/LICENSE-2.0.html
 
 # Installation
 ``` 
@@ -103,3 +106,8 @@ export class AppModule {
     }
 }
 ```
+
+# Changelog
+
+## 0.0.1 First release
+Some icons are still buggy. But they were already buggy upon download.
