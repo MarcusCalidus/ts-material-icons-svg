@@ -1,0 +1,23 @@
+{
+    "name": "ts-material-icons-svg",
+    "version": "0.0.1",
+    "description": "Pure JavaScript and Asynchronous Firebird client for Node.js.",
+    "keywords": [
+        "typescript",
+        "material",
+        "icons"
+    ],
+    "homepage": "https://github.com/marcuscalidus/ts-material-icons-svg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marcuscalidus/ts-material-icons-svg"
+    },
+    "author": {
+        "name": "Marco Warm",
+        "email": "MarcusCalidus@gmail.com"
+    },
+    "licenses": [{
+        "type": "APL-2.0",
+        "url": "https://github.com/marcuscalidus/ts-material-icons-svg/master/LICENSE"
+    }]
+}
