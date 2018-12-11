@@ -11,54 +11,72 @@ npm i --save https://github.com/MarcusCalidus/ts-material-icons-svg.git
 
 # Usage - how to import into TypeScript
 
+There are two ways to include the icons. One is via the curly braces and one without. 
+Both have different results when packing your app with Webpack or Angular respectively.
+The curly brackets offer you a good amount of code completion and add to code readability. 
+The downside of them is that the packaging code will generate one asset in your distribution 
+for each icon of the selected style. This will have no impact to the loading speed but will 
+generate unnecessary assets. Maybe there will be asset tree shaking in the future - one is 
+allowed to dream.
+
+The direct import on the other hand give you the possibility to streamline your code, to only
+add what you really want to add. Your asset folder will contain the imported files only.
+
 ## Typings
 In order for this package to work it is necessary to import the necessary typings
 
 `import 'ts-material-icons-svg';`
 
+Once you have imported this you can also import svg from other sources and use them the 
+same way as you would use the Material Icons included in this package. Like so:
+
+```
+import icon_wrench from '@fortawesome/fontawesome-pro/svgs/regular/wrench.svg';
+```
+
 ## Baseline Icons
-To Include the whole set
+To include one icon of a whole set
 
 `import {icon_edit} from 'ts-material-icons-svg/dist/baseline';`
 
-To Include one icon only
+To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/baseline/edit.svg';`
 
 ## Outline Icons
-To Include the whole set
+To include one icon of a whole set
 
 `import {icon_edit} from 'ts-material-icons-svg/dist/outline';`
 
-To Include one icon only
+To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/outline/edit.svg';`
 
 
 ## Sharp Icons
-To Include the whole set
+To include one icon of a whole set
 
 `import {icon_edit} from 'ts-material-icons-svg/dist/sharp';`
 
-To Include one icon only
+To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/sharp/edit.svg';`
 
 ## Round Icons
-To Include the whole set
+To include one icon of a whole set
 
 `import {icon_edit} from 'ts-material-icons-svg/dist/round';`
 
-To Include one icon only
+To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/round/edit.svg';`
 
 ## Twotone Icons
-To Include the whole set
+To include one icon of a whole set
 
 `import {icon_edit} from 'ts-material-icons-svg/dist/twotone';`
 
-To Include one icon only
+To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/twotone/edit.svg';`
 
