@@ -17,19 +17,50 @@ In order for this package to work it is necessary to import the necessary typing
 `import 'ts-material-icons-svg';`
 
 ## Baseline Icons
+To Include the whole set
+
 `import {icon_edit} from 'ts-material-icons-svg/dist/baseline';`
 
+To Include one icon only
+
+`import icon_edit from 'ts-material-icons-svg/svg/baseline/edit.svg';`
+
 ## Outline Icons
+To Include the whole set
+
 `import {icon_edit} from 'ts-material-icons-svg/dist/outline';`
 
+To Include one icon only
+
+`import icon_edit from 'ts-material-icons-svg/svg/outline/edit.svg';`
+
+
 ## Sharp Icons
+To Include the whole set
+
 `import {icon_edit} from 'ts-material-icons-svg/dist/sharp';`
 
+To Include one icon only
+
+`import icon_edit from 'ts-material-icons-svg/svg/sharp/edit.svg';`
+
 ## Round Icons
+To Include the whole set
+
 `import {icon_edit} from 'ts-material-icons-svg/dist/round';`
 
+To Include one icon only
+
+`import icon_edit from 'ts-material-icons-svg/svg/round/edit.svg';`
+
 ## Twotone Icons
+To Include the whole set
+
 `import {icon_edit} from 'ts-material-icons-svg/dist/twotone';`
+
+To Include one icon only
+
+`import icon_edit from 'ts-material-icons-svg/svg/twotone/edit.svg';`
 
 # Usage - the icon names
 The names of the icons correspond to the official icon names by Google (see here: https://material.io/tools/icons)
