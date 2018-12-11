@@ -11,6 +11,11 @@ npm i --save https://github.com/MarcusCalidus/ts-material-icons-svg.git
 
 # Usage - how to import into TypeScript
 
+## Typings
+In order for this package to work it is necessary to import the necessary typings
+
+`import 'ts-material-icons-svg';`
+
 ## Baseline Icons
 `import {icon_edit} from 'ts-material-icons-svg/dist/baseline';`
 
@@ -41,6 +46,7 @@ Example `app.module`
 
 import {MatIconRegistry} from "@angular/material";
 
+import 'ts-material-icons-svg';  // this import is for typing purposes only
 import {
     icon_more_vert,
     icon_edit,
@@ -113,5 +119,40 @@ export class AppModule {
 ```
 # Changelog
 
+## 0.0.6
+improved help in ReadMe.md
+
+repaired following icons - only black boxes before
+    
+* Outline airplay
+* Outline fast_forward 
+* Outline forward_10
+* Outline mic
+* Outline pause_circle_filled
+* Outline queue_music
+* Outline replay
+* Outline surround_sound
+* Outline web
+* Round star
+* Sharp airplay
+* Sharp fast_forward
+* Sharp forward_10
+* Sharp mic
+* Sharp pause_circle_filled
+* Sharp queue_music
+* Sharp replay
+* Sharp surround_sound
+* Sharp web
+* Twotone airplay
+* Twotone fast_forward 
+* Twotone forward_10
+* Twotone mic
+* Twotone pause_circle_filled
+* Twotone queue_music
+* Twotone replay
+* Twotone surround_sound
+* Twotone web
+
 ## 0.0.1 First release
 Some icons are still buggy. But they were already buggy upon download.
+

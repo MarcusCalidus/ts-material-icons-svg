@@ -1,6 +1,6 @@
 {
     "name": "ts-material-icons-svg",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Use Material Icon SVG without font purely in your typescript/Angular 7+ application",
     "keywords": [
         "typescript",
