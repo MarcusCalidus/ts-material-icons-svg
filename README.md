@@ -37,18 +37,10 @@ import icon_wrench from '@fortawesome/fontawesome-pro/svgs/regular/wrench.svg';
 ## Baseline Icons
 To include one icon of a whole set
 
-`import {icon_edit} from 'ts-material-icons-svg/dist/baseline';`
-
-To include one icon only
-
 `import icon_edit from 'ts-material-icons-svg/svg/baseline/edit.svg';`
 
 ## Outline Icons
 To include one icon of a whole set
-
-`import {icon_edit} from 'ts-material-icons-svg/dist/outline';`
-
-To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/outline/edit.svg';`
 
@@ -56,27 +48,16 @@ To include one icon only
 ## Sharp Icons
 To include one icon of a whole set
 
-`import {icon_edit} from 'ts-material-icons-svg/dist/sharp';`
-
-To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/sharp/edit.svg';`
 
 ## Round Icons
 To include one icon of a whole set
 
-`import {icon_edit} from 'ts-material-icons-svg/dist/round';`
-
-To include one icon only
-
 `import icon_edit from 'ts-material-icons-svg/svg/round/edit.svg';`
 
 ## Twotone Icons
 To include one icon of a whole set
-
-`import {icon_edit} from 'ts-material-icons-svg/dist/twotone';`
-
-To include one icon only
 
 `import icon_edit from 'ts-material-icons-svg/svg/twotone/edit.svg';`
 
