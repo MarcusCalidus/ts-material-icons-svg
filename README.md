@@ -60,7 +60,6 @@ Depending on your project settings it might be necessary to change that syntax t
 `import icon_edit from 'ts-material-icons-svg/svg/round/edit.svg';`
 
 #### Twotone 
-To include one icon of a whole set
 
 `import icon_edit from 'ts-material-icons-svg/svg/twotone/edit.svg';`
 
