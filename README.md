@@ -34,29 +34,32 @@ same way as you would use the Material Icons included in this package. Like so:
 import icon_wrench from '@fortawesome/fontawesome-pro/svgs/regular/wrench.svg';
 ```
 
-## Baseline Icons
-To include one icon of a whole set
+## Icons
+To include one icon of a whole set you can simply 
+`import anyIconURL from 'ts-material-icons-svg/{style}/{iconname}.svg;`
+
+Depending on your project settings it might be necessary to change that syntax to 
+`import * as anyIconURL from 'ts-material-icons-svg/{style}/{iconname}.svg;`
+
+
+#### Baseline
 
 `import icon_edit from 'ts-material-icons-svg/svg/baseline/edit.svg';`
 
-## Outline Icons
-To include one icon of a whole set
+#### Outline
 
 `import icon_edit from 'ts-material-icons-svg/svg/outline/edit.svg';`
 
 
-## Sharp Icons
-To include one icon of a whole set
-
+#### Sharp
 
 `import icon_edit from 'ts-material-icons-svg/svg/sharp/edit.svg';`
 
-## Round Icons
-To include one icon of a whole set
+#### Round 
 
 `import icon_edit from 'ts-material-icons-svg/svg/round/edit.svg';`
 
-## Twotone Icons
+#### Twotone 
 To include one icon of a whole set
 
 `import icon_edit from 'ts-material-icons-svg/svg/twotone/edit.svg';`
@@ -147,7 +150,32 @@ export class AppModule {
 ```
 <mat-icon svgIcon="keyboard_arrow_right"></mat-icon>
 ```
+
+## Passing the Jest test
+If you are using Jest for your testing it might be necessary to make the following 
+changes to your `jest.config.js`
+
+```
+module.exports = {
+  ...,
+
+  moduleNameMapper: {
+    '\\.svg$': '<rootDir>/../../test/mock/ts-material-icon-svg.mock.js'
+  },
+};
+```
+  
+Then you only need to provide a `ts-material-icon-svg.mock.js` that you are referring  
+
+``` 
+module.exports = 'icon.svg';
+```                                                                        
+
 # Changelog
+
+## 0.0.9
+Added documentation for Jest setup (according to issue #1).
+Added alternative possibility to import via `import * as ... from` statement (according to issue #1). 
 
 ## 0.0.6
 improved help in ReadMe.md
